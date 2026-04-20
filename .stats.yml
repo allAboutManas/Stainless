@@ -1,0 +1,4 @@
+configured_endpoints: 1
+openapi_spec_url: https://storage.googleapis.com/stainless-sdk-openapi-specs/polaris%2Frandom-quote-api-38a4c891461a640d496405649b556d57da571c48d9fb348b395b97df41a67905.yml
+openapi_spec_hash: d69d35a6d1d750bb690918e04964d4d4
+config_hash: 7e17ea75197a23722ec0e88059fe1593
