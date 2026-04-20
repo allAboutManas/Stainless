@@ -11,7 +11,7 @@ It is generated with [Stainless](https://www.stainless.com/).
 ## Installation
 
 ```sh
-npm install git+ssh://git@github.com:stainless-sdks/random-quote-api-typescript.git
+npm install git+ssh://git@github.com:allAboutManas/Stainless.git
 ```
 
 > [!NOTE]
@@ -25,9 +25,7 @@ The full API of this library can be found in [api.md](api.md).
 ```js
 import RandomQuoteAPI from 'random-quote-api';
 
-const client = new RandomQuoteAPI({
-  apiKey: process.env['RANDOM_QUOTE_API_API_KEY'], // This is the default and can be omitted
-});
+const client = new RandomQuoteAPI();
 
 await client.quotes.retrieve();
 ```
@@ -40,9 +38,7 @@ This library includes TypeScript definitions for all request params and response
 ```ts
 import RandomQuoteAPI from 'random-quote-api';
 
-const client = new RandomQuoteAPI({
-  apiKey: process.env['RANDOM_QUOTE_API_API_KEY'], // This is the default and can be omitted
-});
+const client = new RandomQuoteAPI();
 
 await client.quotes.retrieve();
 ```
@@ -333,7 +329,7 @@ This package generally follows [SemVer](https://semver.org/spec/v2.0.0.html) con
 
 We take backwards-compatibility seriously and work hard to ensure you can rely on a smooth upgrade experience.
 
-We are keen for your feedback; please open an [issue](https://www.github.com/stainless-sdks/random-quote-api-typescript/issues) with questions, bugs, or suggestions.
+We are keen for your feedback; please open an [issue](https://www.github.com/allAboutManas/Stainless/issues) with questions, bugs, or suggestions.
 
 ## Requirements
 

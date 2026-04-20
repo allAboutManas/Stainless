@@ -2,10 +2,7 @@
 
 import RandomQuoteAPI from 'random-quote-api';
 
-const client = new RandomQuoteAPI({
-  apiKey: 'My API Key',
-  baseURL: process.env['TEST_API_BASE_URL'] ?? 'http://127.0.0.1:4010',
-});
+const client = new RandomQuoteAPI({ baseURL: process.env['TEST_API_BASE_URL'] ?? 'http://127.0.0.1:4010' });
 
 describe('resource quotes', () => {
   // Mock server tests are disabled
