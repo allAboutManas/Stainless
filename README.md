@@ -25,9 +25,7 @@ The full API of this library can be found in [api.md](api.md).
 ```js
 import RandomQuoteAPI from 'random-quote-api';
 
-const client = new RandomQuoteAPI({
-  apiKey: process.env['RANDOM_QUOTE_API_API_KEY'], // This is the default and can be omitted
-});
+const client = new RandomQuoteAPI();
 
 await client.quotes.retrieve();
 ```
@@ -40,9 +38,7 @@ This library includes TypeScript definitions for all request params and response
 ```ts
 import RandomQuoteAPI from 'random-quote-api';
 
-const client = new RandomQuoteAPI({
-  apiKey: process.env['RANDOM_QUOTE_API_API_KEY'], // This is the default and can be omitted
-});
+const client = new RandomQuoteAPI();
 
 await client.quotes.retrieve();
 ```
